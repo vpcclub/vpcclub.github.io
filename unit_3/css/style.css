@@ -1,0 +1,59 @@
+
+
+body {
+  	text-align: justify-all;
+  	font-family:sans-serif;
+  	background-color: #D5DCFF;
+  	color: #0000; 
+	font-size:;
+	font-style:;
+	font-weight:;
+	text-align:justify-all;
+	
+
+}
+
+#slogan {
+	font-style: italic;
+}
+
+img{
+	align-content:center;
+
+}
+
+a{
+	text-decoration: none;
+
+}
+
+h1{
+	color: #0000; 
+	font-size:;
+	font-family: ;
+	font-style:normal;
+	font-weight:600;
+	text-align:center;
+	text-decoration:underline;
+}
+h2, h3 {
+	color: #0000; 
+	font-size:;
+	font-family: ;
+	font-style:;
+	font-weight:500;
+	text-align:center;
+	text-decoration:;
+}
+
+ul {	}
+
+li { 
+	color: #0000; 
+	font-size:;
+	font-family:cursive; ;
+	font-style:normal;
+	list-style-type: circle;
+	font-weight:;
+	text-align:justify;
+	}
