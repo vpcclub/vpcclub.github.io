@@ -27,6 +27,8 @@ a{
 
 }
 
+hr{}
+
 h1{
 	color: #0000; 
 	font-size:;
@@ -46,7 +48,15 @@ h2, h3 {
 	text-decoration:;
 }
 
-ul {	}
+ul {
+	color: #0000; 
+	font-size:;
+	font-family:cursive; ;
+	font-style:normal;
+	list-style-type: circle;
+	font-weight:;
+	text-align:justify;
+		}
 
 li { 
 	color: #0000; 
