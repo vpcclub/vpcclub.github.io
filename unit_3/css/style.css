@@ -18,7 +18,8 @@ body {
 }
 
 img{
-	align-content:center;
+	align-content:centre;
+
 
 }
 
@@ -48,22 +49,19 @@ h2, h3 {
 	text-decoration:;
 }
 
+
 ul {
-	color: #0000; 
-	font-size:;
-	font-family:cursive; ;
-	font-style:normal;
-	list-style-type: circle;
-	font-weight:;
-	text-align:justify;
-		}
+    text-align: center;
+    font-family:cursive; 
+    list-style-type: none;
+}
+
+
 
 li { 
-	color: #0000; 
-	font-size:;
-	font-family:cursive; ;
-	font-style:normal;
+	color: #0000;
 	list-style-type: circle;
-	font-weight:;
-	text-align:justify;
+	text-align: center;
+    font-family:cursive;
+    list-style-type: none;
 	}
