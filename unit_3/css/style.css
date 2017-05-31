@@ -1,15 +1,14 @@
 
 
 body {
-  	text-align: justify-all;
+  	text-align: justify; 
   	font-family:sans-serif;
   	background-color: #D5DCFF;
   	color: #0000; 
-	font-size:;
-	font-style:;
-	font-weight:;
-	text-align:justify-all;
-	
+	 font-size: 18px;
+  line-height: 28px;
+  margin: 2em;
+  line-height:1.5em;
 
 }
 
