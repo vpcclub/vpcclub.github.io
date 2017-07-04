@@ -1,15 +1,16 @@
 header {
     background-color: #ffffff;
-    border: .5em black solid;
-    padding: 2em;
+    border: 0;
+    padding: 0;
     
 }
 
 img{
-    align:center;
-    width: 60%;
+
+    width: 95%;
     height: auto;
-    align-items: center;
+    padding : 0.5em;
+    padding-bottom: 0em;
 
 
 }
@@ -29,16 +30,18 @@ nav a {
     font-size: 2em;
     color: #000000;
     font-family: sans-serif;
-    padding: 1.5em;
-    margin: 1.8em;
-    display: inline-block;
+    padding: 1em;
+    margin: .5em;
+    float: left;
+    display: block;
 }
 
 a:hover {
     background-color: #0B0440;
     color: #ffffff;
-   
 
+}
+   
 }
 
 aside {
@@ -46,6 +49,7 @@ aside {
     border: .2em black solid;
     padding: 2em;
     color: 0F10FF;
+    float: left;
 }
 
 article {
@@ -58,23 +62,35 @@ footer {
     background-color: #FF957E;
     border: .2em black solid;
     padding: 2em;
+    color: 0F10FF;
+    float: none;
 }
 
 section {
-    background-color: #D3DAFF;
+    background-color: ##ffffff;
     border: .2em black solid;
     padding: 2em;
 }
 
+ul {
+    display: inline;
 
+}
 
 
 
 #two_column {
     background-color: #D3DAFF;
-    width: 50%
+    width: 80%
     border: .5em black solid;
     padding: 2em;
+}
+
+.article {
+    width: 90%;
+    padding:2%; 
+    margin: .1%;
+   
 }
 
 #left {
@@ -82,15 +98,15 @@ section {
     border: .5em black solid;
     padding: 2em;
     float: left;
-    width: 25%;
+    width: 45%;
 }
 
 #right {
     background-color: #00E3FF;
     border: .5em black solid;
     padding: 2em;
-    float: right;   
-    width: 25%;
+    float: right;
+    width: 45%;
 }
 .clearfix:after {
     visibility: hidden;
@@ -103,13 +119,21 @@ section {
 }
 
 
-
+@media only screen and (max-width: 1088px) {
+    .article {
+        float: none;
+        width: auto;
+        
+    }
 
 @media (max-width: 480px) {
  
   img {
     width: 230px;
   }
+
+
+
 
 
 
