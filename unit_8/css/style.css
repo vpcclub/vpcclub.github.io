@@ -91,7 +91,7 @@ ul {
    
 }
 
-#left {
+#one {
     background-color: #00E3FF;
     border: .5em black solid;
     padding: 2em;
@@ -99,11 +99,10 @@ ul {
     width: 45%;
 }
 
-#right {
+#two {
     background-color: #00E3FF;
     border: .5em black solid;
     padding: 2em;
-    float: right;
     width: 45%;
 }
 .clearfix:after {
