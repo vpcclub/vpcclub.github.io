@@ -1,48 +1,61 @@
 
 nav a {
     text-decoration: none;
-    text-align: left;
+
     font-size: 1.5em;
     color: #000000;
-    font-family: sans-serif;
-    padding: 1em;
-    margin: auto;
-    float: left;
+    font-family: georgia;
+    padding: .5em;
+    float: none;
     display: block; 
+    padding-left: 1em;
 }
 
 a:hover {
     background-color: #0B0440;
     color: #ffffff;
 }
-img {
-	width: 15%;
+
+
+.vpcclogo {
+	width: 80%;
 	height: auto;
+	padding-top: 2em;
+	padding-left: 1em;
+	padding-bottom: 1.5em;
 }
 
-h2{
+h2, h3{
 	font-family: helvetica;
 	text-align: center;
+}
+
+header {
+	width: 15%;
+	position: fixed;
+	top: 0;
+	left: 0
+	height:100%;
 }
 
 footer {
 	background-color:#0B0440;
 	color: #ffffff;
-	font-family: sans-serif;
+	font-family: courier;
 	font-weight: 400;
-	font-size: .8em;
-	padding:2em;
-
+	font-size: .5em;
+	clear: both;	
 }
 
 ul {
 	font-size: 1em;
-	font-family: sans-serif;
-	font-family: garamond;
+	font-family: helvetica;
 	text-align: left;
+}
 
-
-
+.main {
+	width: 80%;
+	float: right;
 }
 
 .two_column{
@@ -53,7 +66,7 @@ ul {
 	align-content: center;
 	background-color: none;
 	padding-bottom: 20em;
-	padding-top: 5em;
+	padding-top: 1em;
 	text-align: justify-all;
 	color: #0B0440;
 }
@@ -67,7 +80,6 @@ ul {
 	border-width: 2em;
 	padding: .5em;
 	margin-left: 3em;
-
 	
 }
 
@@ -90,10 +102,10 @@ ul {
 	margin:auto;
 	align-content: justify;
 	background-color: none;
-	padding-bottom: 20em;
+	padding-bottom: 15em;
+	margin-bottom: 10em;
 	text-align: justify-all;
 	color: #0B0440;
-
 }
 
 #three, #four {
@@ -105,8 +117,6 @@ ul {
 	align-content: left;
 	padding: .5em;
 	margin-left: 3em;
-	
-
 }
 
 /*#four{
@@ -119,6 +129,36 @@ ul {
 	margin-left: 3em;
 
 }*/
+
+.ghmain {
+    width: 1000px;
+	font-size: 18px;
+	font-family: garamond;
+	margin:auto;
+	align-content: center;
+	padding-bottom: 80em;
+	padding-top: 2em;
+	padding-right: 2em;
+	text-align: justify-all;	
+}
+
+#george {
+	width: 50%;
+	float: left;
+	padding-bottom: 2em;
+	text-align: justify;
+	border-width: 2em;
+	padding: .5em;
+	padding-right: 3em;
+	margin-left: 3em;
+}
+
+#ghphoto {
+		padding-top: 2em;
+		margin-top: 10em;
+	
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
